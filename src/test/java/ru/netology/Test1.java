@@ -10,7 +10,7 @@ public class Test1 {
     void shouldReturn() {
         given()
                 .baseUri("https://postman-echo.com")
-                .body("some data")
+                .body("Hello, world")
                 .when()
                 .post("/post")
                 .then()
